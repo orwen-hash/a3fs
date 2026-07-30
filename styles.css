@@ -79,19 +79,8 @@ p { line-height: 1.6; }
   min-height: 78px;
 }
 .brand { display: inline-flex; align-items: center; }
-.brand__mark {
-  display: grid;
-  place-items: center;
-  min-width: 78px;
-  height: 42px;
-  padding: 0 14px;
-  color: var(--white);
-  background: var(--ink);
-  border-radius: 6px;
-  font-size: 0.9rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-}
+.brand img { width: 150px; height: auto; }
+
 .primary-nav { display: flex; justify-content: center; gap: 28px; }
 .primary-nav a { font-size: 0.78rem; font-weight: 700; }
 .primary-nav a::after {
